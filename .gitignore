@@ -1,3 +1,4 @@
+# ---- 上游 C++ 模板规则 ----
 # Prerequisites
 *.d
 
@@ -30,3 +31,23 @@
 *.exe
 *.out
 *.app
+
+# ---- 本项目：构建产物 ----
+build/
+TauriCPP/build/
+CMakeFiles/
+CMakeCache.txt
+*.pdb
+*.ilk
+*.exp
+*.log
+*.tlog
+
+# ---- 本项目：本地调试工具与草稿（不发布） ----
+.debug/
+doc/
+
+# ---- IDE ----
+.vs/
+.vscode/
+*.user
